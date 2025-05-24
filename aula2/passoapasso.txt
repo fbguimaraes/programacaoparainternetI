@@ -1,0 +1,81 @@
+Passo a Passo: Configurando o Git e Enviando para o GitHub
+
+1. Configurar nome de usuário e email
+Após instalar o Git, abra o terminal (ou Git Bash no Windows) e configure o nome de usuário e o email. Eles são importantes porque aparecem nos registros de quem fez cada alteração.
+
+
+git config --global user.name "Seu Nome"
+git config --global user.email "seuemail@example.com"
+Você pode verificar se as configurações foram feitas corretamente com:
+
+
+git config --list
+2. Criar um novo repositório local
+Acesse a pasta onde deseja criar o repositório:
+
+
+cd /caminho/para/sua/pasta
+Inicialize o repositório Git:
+
+bash
+Copiar
+Editar
+git init
+Crie um arquivo, por exemplo:
+
+bash
+Copiar
+Editar
+echo "# Meu Projeto" > README.md
+Adicione os arquivos ao Git:
+
+bash
+Copiar
+Editar
+git add .
+Faça o primeiro commit:
+
+bash
+Copiar
+Editar
+git commit -m "Primeiro commit"
+
+3. Criar um repositório no GitHub
+Acesse o site https://github.com e faça login.
+
+Clique no botão "New" ou "Novo" para criar um novo repositório.
+
+Preencha o nome e as configurações desejadas e clique em "Create repository".
+
+4. Conectar o repositório local ao GitHub
+Copie a URL do repositório que você acabou de criar no GitHub. Ela será parecida com:
+
+bash
+Copiar
+Editar
+https://github.com/SeuUsuario/NomeDoRepositorio.git
+No terminal, adicione o repositório remoto:
+
+bash
+Copiar
+Editar
+git remote add origin https://github.com/SeuUsuario/NomeDoRepositorio.git
+Envie os arquivos do repositório local para o GitHub:
+
+bash
+Copiar
+Editar
+git push -u origin master
+Obs: Dependendo da versão do Git, o nome do branch pode ser main em vez de master. Se for o caso, use:
+
+bash
+Copiar
+Editar
+git push -u origin main
+5. Confirmar
+Acesse novamente o seu repositório no GitHub e atualize a página.
+
+Você verá os arquivos enviados.
+
+ Pronto!
+Agora você já sabe como configurar o Git, criar um repositório e enviar seus arquivos para o GitHub.

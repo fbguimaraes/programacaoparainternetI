@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passo a Passo: Configurando Git e Enviando para o GitHub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        code {
+            background-color: #eee;
+            padding: 2px 5px;
+            border-radius: 4px;
+            display: block;
+            margin: 5px 0;
+            white-space: pre-wrap;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+        }
+        .obs {
+            background-color: #ffffcc;
+            padding: 10px;
+            border-left: 4px solid #ffeb3b;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Passo a Passo: Configurando o Git e Enviando para o GitHub</h1>
+
+    <h2> 1. Configurar nome de usuário e email</h2>
+    <p>Após instalar o Git, abra o terminal (ou Git Bash no Windows) e configure o nome de usuário e o email. Eles são importantes porque aparecem nos registros de quem fez cada alteração.</p>
+    
+    <code>
+git config --global user.name "Seu Nome"
+git config --global user.email "seuemail@example.com"
+    </code>
+
+    <p>Você pode verificar se as configurações foram feitas corretamente com:</p>
+
+    <code>git config --list</code>
+
+    <h2> 2. Criar um novo repositório local</h2>
+
+    <ol>
+        <li>Acesse a pasta onde deseja criar o repositório:</li>
+    </ol>
+
+    <code>cd /caminho/para/sua/pasta</code>
+
+    <ol start="2">
+        <li>Inicialize o repositório Git:</li>
+    </ol>
+
+    <code>git init</code>
+
+    <ol start="3">
+        <li>Crie um arquivo, por exemplo:</li>
+    </ol>
+
+    <code>echo "# Meu Projeto" &gt; README.md</code>
+
+    <ol start="4">
+        <li>Adicione os arquivos ao Git:</li>
+    </ol>
+
+    <code>git add .</code>
+
+    <ol start="5">
+        <li>Faça o primeiro commit:</li>
+    </ol>
+
+    <code>git commit -m "Primeiro commit"</code>
+
+    <h2> 3. Criar um repositório no GitHub</h2>
+
+    <ol>
+        <li>Acesse o site <a href="https://github.com" target="_blank">https://github.com</a> e faça login.</li>
+        <li>Clique no botão <strong>"New"</strong> ou <strong>"Novo"</strong> para criar um novo repositório.</li>
+        <li>Preencha o nome e as configurações desejadas e clique em <strong>"Create repository"</strong>.</li>
+    </ol>
+
+    <h2> 4. Conectar o repositório local ao GitHub</h2>
+
+    <ol>
+        <li>Copie a URL do repositório que você acabou de criar no GitHub. Ela será parecida com:</li>
+    </ol>
+
+    <code>https://github.com/SeuUsuario/NomeDoRepositorio.git</code>
+
+    <ol start="2">
+        <li>No terminal, adicione o repositório remoto:</li>
+    </ol>
+
+    <code>git remote add origin https://github.com/SeuUsuario/NomeDoRepositorio.git</code>
+
+    <ol start="3">
+        <li>Envie os arquivos do repositório local para o GitHub:</li>
+    </ol>
+
+    <code>git push -u origin master</code>
+
+    <div class="obs">
+        <strong>Obs:</strong> Dependendo da versão do Git, o nome do branch pode ser <code>main</code> em vez de <code>master</code>. Se for o caso, use:
+        
+        <code>git push -u origin main</code>
+    </div>
+
+    <h2> 5. Confirmar</h2>
+
+    <ul>
+        <li>Acesse novamente o seu repositório no GitHub e atualize a página.</li>
+        <li>Você verá os arquivos enviados.</li>
+    </ul>
+
+    <h2> Pronto!</h2>
+
+    <p>Agora você já sabe como configurar o Git, criar um repositório e enviar seus arquivos para o GitHub.</p>
+
+</body>
+</html>
