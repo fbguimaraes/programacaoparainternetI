@@ -1,0 +1,37 @@
+Passo a Passo no Windows
+
+
+
+Configure o nome e email:
+
+        git config --global user.name "Seu Nome"
+
+        git config --global user.email "seuemail@example.com"
+
+Crie uma pasta para o projeto ou entre em uma já existente:
+
+        cd /c/Users/SeuUsuario/Documentos/Projeto
+
+Inicialize o repositório:
+
+        git init
+
+Crie um arquivo README.md ou outro qualquer.
+
+Adicione os arquivos:
+
+        git add .
+
+Faça o commit:
+
+        git commit -m "Primeiro commit"
+
+No GitHub, crie um novo repositório.
+
+Copie a URL e conecte:
+
+        git remote add origin https://github.com/SeuUsuario/NomeDoRepositorio.git
+
+Envie para o GitHub:
+
+        git push -u origin master

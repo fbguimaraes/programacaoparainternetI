@@ -1,0 +1,48 @@
+
+Passo a Passo usando Visual Studio Code (VS Code) com a interface gráfica
+
+1. Instale o Git no sistema (Windows, Linux ou macOS).
+  
+
+2. Instale o Visual Studio Code:
+   
+
+3. Abra o VS Code e instale a extensão "GitHub Pull Requests and Issues":
+   
+
+4. Na mesma área de extensões, garanta que a extensão "Git" esteja habilitada.
+
+5. Abra a pasta do projeto no VS Code:
+
+6. Inicie o controle de versão:
+   - No menu lateral, clique no ícone de Source Control.
+   - clique na opção "Initialize Repository" ou "Iniciar Repositório".
+
+7. Crie ou edite arquivos normalmente.
+
+8. Para adicionar arquivos:
+   - No painel de Source Control, veja os arquivos modificados.
+
+9. Para fazer o commit:
+   - No campo superior de mensagem, escreva a descrição do commit, por exemplo:
+     - "Primeiro commit"
+   - Depois clique no ícone de check (✔) para confirmar o commit.
+
+10. Para conectar ao GitHub:
+   - No VS Code, clique no ícone de Contas (canto inferior esquerdo).
+   - Clique em "Sign in to GitHub" e siga as instruções para autorizar.
+
+11. No GitHub, crie um novo repositório:
+   - No site https://github.com, clique em "New" ou "Novo".
+   - Crie o repositório sem inicializar com README (para evitar conflitos).
+
+12. No VS Code:
+   - No painel de Source Control, clique em "Publish to GitHub" ou "Publicar no GitHub".
+
+
+13. Confirme a publicação. O VS Code vai automaticamente adicionar o remoto e enviar os arquivos.
+
+14. Para verificar:
+   - Acesse o repositório no GitHub e veja os arquivos enviados.
+
+
