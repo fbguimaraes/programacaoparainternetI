@@ -1,5 +1,4 @@
 
-Passo a Passo usando Visual Studio Code (VS Code) com a interface gráfica
 
 1. Instale o Git no sistema (Windows, Linux ou macOS).
   

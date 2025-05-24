@@ -1,0 +1,33 @@
+
+
+1. Criar um novo repositório no GitHub:
+
+2. Criar um arquivo Hello World em Python no GitHub:
+   - No repositório recém-criado, clique em "Add file" → "Create new file".
+   - Nomeie o arquivo como "_________.py".
+   - No campo de edição, escreva:
+     print("Hello, World!")
+   - Escreva a mensagem do commit na parte de baixo e clique em "Commit new file"
+
+3. Clonar o repositório no Visual Studio Code:
+   - Copie a URL do repositório no GitHub (HTTPS ou SSH).
+   - Abra o Visual Studio Code.
+   - Clique em "View" → "Command Palette" ou Ctrl+Shift+P.
+   - abra o terminal e digite: git clone <link do repositório>.
+
+4. Alterar o arquivo Hello World:
+   - No VS Code, abra o arquivo "hello.py".
+   - Modifique o conteúdo.
+   - Salve a alteração.
+
+5. Sincronizar as mudanças com o GitHub:
+   - No menu lateral, clique no ícone de "Source Control".
+   - Veja o arquivo modificado listado.
+   - Clique no "+" para adicionar o arquivo.
+   - No campo superior de mensagem, escreva a mensagem do commit
+   - Clique no ícone de check,
+   - Clique em "Synchronize Changes",
+
+6. Verificar no GitHub:
+   - Acesse o repositório no GitHub e confirme que a mudança foi registrada com sucesso.
+

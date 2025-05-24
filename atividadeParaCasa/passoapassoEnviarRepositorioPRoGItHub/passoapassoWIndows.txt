@@ -1,7 +1,5 @@
 Passo a Passo no Windows
 
-
-
 Configure o nome e email:
 
         git config --global user.name "Seu Nome"
